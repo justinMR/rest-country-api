@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/rest-country-api/static/css/main.00e59506.chunk.css",
+    "main.js": "/rest-country-api/static/js/main.a80e6725.chunk.js",
+    "main.js.map": "/rest-country-api/static/js/main.a80e6725.chunk.js.map",
+    "runtime-main.js": "/rest-country-api/static/js/runtime-main.e553e174.js",
+    "runtime-main.js.map": "/rest-country-api/static/js/runtime-main.e553e174.js.map",
+    "static/css/2.cd1899df.chunk.css": "/rest-country-api/static/css/2.cd1899df.chunk.css",
+    "static/js/2.df849ad8.chunk.js": "/rest-country-api/static/js/2.df849ad8.chunk.js",
+    "static/js/2.df849ad8.chunk.js.map": "/rest-country-api/static/js/2.df849ad8.chunk.js.map",
+    "index.html": "/rest-country-api/index.html",
+    "precache-manifest.51320d1e815c01716eec9035a9031010.js": "/rest-country-api/precache-manifest.51320d1e815c01716eec9035a9031010.js",
+    "service-worker.js": "/rest-country-api/service-worker.js",
+    "static/css/2.cd1899df.chunk.css.map": "/rest-country-api/static/css/2.cd1899df.chunk.css.map",
+    "static/css/main.00e59506.chunk.css.map": "/rest-country-api/static/css/main.00e59506.chunk.css.map",
+    "static/js/2.df849ad8.chunk.js.LICENSE.txt": "/rest-country-api/static/js/2.df849ad8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e553e174.js",
+    "static/css/2.cd1899df.chunk.css",
+    "static/js/2.df849ad8.chunk.js",
+    "static/css/main.00e59506.chunk.css",
+    "static/js/main.a80e6725.chunk.js"
+  ]
+}
