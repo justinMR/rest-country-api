@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap");
+
+.App {
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+:root {
+  /* dark-mode elements */
+  --dark-blue: hsl(209, 23%, 22%);
+  /* dark mode background */
+  --very-dark-blue: hsl(207, 26%, 17%);
+}
+
+/* Dark-mode */
+.App.darkMode,
+.App.darkMode .lead-nav-level,
+.App.darkMode .dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: var(--very-dark-blue) !important;
+}
+
+.App.darkMode .card,
+.App.darkMode .input,
+.App.darkMode .dropdown .dropdown-trigger button,
+.App.darkMode .dropdown .dropdown-menu .dropdown-content {
+  background-color: var(--dark-blue) !important;
+}
+
+.App.darkMode .card .subtitle,
+.App.darkMode .card strong,
+.App.darkMode .input,
+.App.darkMode .input::placeholder,
+.App.darkMode .dropdown span,
+.App.darkMode .dropdown .dropdown-menu .dropdown-content button,
+.App.darkMode .card .title.is-4 a,
+.App.darkMode .lead-nav-level .title,
+.App.darkMode .country-page-container,
+.App.darkMode .country-page-container .title,
+.App.darkMode .country-page-container strong {
+  color: #fff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+/* Main-Nav */
+
+.navbar {
+  background-color: #fff;
+}
+
+.lead-nav-level {
+  background: #fff;
+  padding: 2rem;
+  margin-bottom: 0 !important;
+}
+
+/* Country Page */
+/* .country-page-container .image img {
+  
+} */
+
+.country-page-container figure.image {
+  border-radius: 6px;
+}
+
+.country-page-container img.image {
+  object-fit: contain;
+}
+/* Cards */
+.card-grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 6rem;
+}
+
+.card {
+  border-radius: 6px;
+}
+
+.card-image-container {
+  display: block;
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.card-content .title.is-4 a {
+  color: #000;
+}
+
+button {
+  background: none;
+  outline: none;
+  border: none;
+}
+
+span.lang-tag {
+  margin-right: 0.5rem;
+}
+
+@media only screen and (min-width: 300px) {
+  .card-grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media only screen and (min-width: 768px) {
+  .card-grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (min-width: 768px) and (min-width: 1024px) {
+  .card-grid-container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+  }
+}
+
+@media only screen and (min-width: 1330px) {
+  .card-grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
